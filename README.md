@@ -84,6 +84,8 @@ Multi-language support
 
 Patient health trends dashboard
 
+Unlike typical health chatbots, MediLink AI integrates with AWS to instantly alert caregivers when high-risk symptoms are detected.
+
 📫 Contact
 
 Built by Parth Patel
