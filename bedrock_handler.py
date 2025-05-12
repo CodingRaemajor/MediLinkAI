@@ -6,16 +6,12 @@ def get_diagnosis_from_bedrock(symptom_text):
     try:
         bedrock = boto3.client("bedrock-runtime", region_name="us-east-1")
 
-        prompt = f"""You are a helpful virtual healthcare assistant.
+        prompt = f"""You are a helpful virtual health assistant. Based on the following symptoms, provide a general possible cause and what the patient can do next. Keep it medically reasonable and within safety limits.
 
-User symptoms: {symptom_text}
+Patient's symptoms: {symptom_text}
 
-Respond with:
-1. A likely diagnosis or explanation
-2. A suggested action (e.g., rest, medicine, doctor visit)
-3. Any warning signs to watch for
-
-Use plain English. Respond in 3 short sentences."""
+Respond in 3 sentences and include general self-care advice. Do not mention you're an AI or disclaim excessively.
+"""
 
         body = json.dumps({
             "inputText": prompt,

@@ -7,7 +7,7 @@ from sns_alerts import send_health_alert
 from dynamodb_handler import save_patient_record
 
 # Debug: Check if AWS secrets are working (you can remove this later)
-st.write("🧪 AWS Key Found:", os.environ.get("AWS_ACCESS_KEY_ID"))
+# st.write("🧪 AWS Key Found:", os.environ.get("AWS_ACCESS_KEY_ID"))
 
 st.title("🤖 MediLink AI – Symptom Checker")
 st.subheader("Get a quick AI-powered health analysis")
