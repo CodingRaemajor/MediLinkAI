@@ -4,7 +4,7 @@ MediLink AI is an AI-powered remote symptom checker designed to assist users in 
 
 🌐 Live Demo
 
-Streamlit App: Click to Open
+Streamlit App: https://medilinkai.streamlit.app/
 
 🚀 Features
 
