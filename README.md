@@ -12,7 +12,7 @@ Streamlit App: https://medilinkai.streamlit.app/
 
 Enter symptoms (e.g., "fever, chest pain")
 
-Amazon Bedrock (Claude v2) provides a 3-sentence health insight
+Amazon Bedrock (Titan Text G1) provides a 3-sentence health insight
 
 ✅ Real-Time Emergency Alerts
 
