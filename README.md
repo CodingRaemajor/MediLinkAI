@@ -36,7 +36,7 @@ Works on mobile, desktop, and low-bandwidth connections
 
 User fills in name, age, gender, and symptoms
 
-Symptoms are analyzed by Amazon Bedrock (Claude v2)
+Symptoms are analyzed by Amazon Bedrock (Titan Text G1)
 
 If critical terms are detected, an alert is sent via Amazon SNS
 
